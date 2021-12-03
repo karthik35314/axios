@@ -1,24 +1,25 @@
-import {POST,EDIT,DELETE} from '../Actions/Types';
+// import {POST,EDIT,DELETE,GET} from '../Actions/Types';
 
-const initialState = {
-    users:[],
-    loading:true
-}
+// const initialState = {
+//     users:[],
+//     loading:true
+// }
 
-export default function(state = initialState, action){
+// export default function(state = initialState, action){
 
-    switch(action.type){
+//     switch(action.type){
 
-        case POST:
-        return {
-            ...state,
-            users:action.payload,
-            loading:false
+//         case EDIT:
+//         return {
+//             ...state,
+//             users:action.payload,
+//             loading:false
 
-        }
+//         }
+
         
-        default: return state
-    }
+//         default: return state
+//     }
 
-}
+// }
 
